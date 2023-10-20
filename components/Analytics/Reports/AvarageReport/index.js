@@ -36,7 +36,6 @@ const AvarageReport = () => {
             borderBottom: "1px solid #EEF0F7",
             paddingBottom: "10px",
           }}
-          
           className="for-dark-bottom-border"
         >
           <Typography
@@ -95,14 +94,11 @@ const AvarageReport = () => {
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
           >
-            <MenuItem sx={{ fontSize: "14px" }}>Last 15 Days</MenuItem>
+            {/* <MenuItem sx={{ fontSize: "14px" }}>Last 15 Days</MenuItem>
             <MenuItem sx={{ fontSize: "14px" }}>Last Month</MenuItem>
-            <MenuItem sx={{ fontSize: "14px" }}>Last Year</MenuItem>
+            <MenuItem sx={{ fontSize: "14px" }}>Last Year</MenuItem> */}
           </Menu>
         </Box>
-
-        {/* RevenueChart */}
-        <RevenueChart />
 
         <>
           <div className={styles.totalRevenueList}>

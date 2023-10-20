@@ -125,8 +125,6 @@ const VisitsByDayAndNetIncome = () => {
             </ResponsiveContainer>
           </Grid>
         </Grid>
-        
-        {/* NetIncome */}
         <NetIncome />
       </Card>
     </>
