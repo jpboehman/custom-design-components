@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
             router.pathname === "/authentication/lock-screen" ||
             router.pathname === "/authentication/confirm-mail" ||
             router.pathname === "/authentication/logout"
-          ) && <Footer />}
+          )}
         </div>
       </div>
             

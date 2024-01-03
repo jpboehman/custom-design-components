@@ -19,52 +19,8 @@ import OurStatsExplained from "@/components/Pages/TermsConditions/TermsCondition
 export const SidebarData = [
   {
     title: "Overview",
-    path: "/pages/our-stats-explained",
+    path: "/",
     icon: <GridViewIcon />,
-  },
-  {
-    title: "NCAA",
-    path: "/apps/file-manager/",
-    icon: <LayersIcon />,
-    iconClosed: <KeyboardArrowRightIcon />,
-    iconOpened: <KeyboardArrowDownIcon />,
-
-    subNav: [
-      {
-        title: "NCAA Team EPSS",
-        path: "/pages/team-epss/ncaa",
-      },
-      {
-        title: "NCAA Player Grades",
-        path: "/pages/player-season-grade-eps/ncaa",
-      },
-      {
-        title: "NCAA Expected Wins",
-        path: "/pages/expected-wins/ncaa",
-      },
-    ],
-  },
-  {
-    title: "NBA",
-    path: "/apps/file-manager/",
-    icon: <LayersIcon />,
-    iconClosed: <KeyboardArrowRightIcon />,
-    iconOpened: <KeyboardArrowDownIcon />,
-
-    subNav: [
-      {
-        title: "NBA Team EPSS",
-        path: "/pages/team-epss/nba",
-      },
-      {
-        title: "NBA Player Grades",
-        path: "/pages/player-season-grades-eps/nba",
-      },
-      {
-        title: "NBA Expected Wins",
-        path: "/pages/expected-wins/nba",
-      },
-    ],
   },
   {
     title: "Analytics",

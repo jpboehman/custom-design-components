@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
+    // TODO: This allows production builds to successfully complete even if
+    // the project has ESLint errors.
     ignoreDuringBuilds: true,
   },
   images: {
@@ -15,13 +15,6 @@ const nextConfig = {
     locales: ['en', 'ar'],
     defaultLocale: 'en',
   },
-  // images: {
-	// 	loader: "akamai",
-	// 	path:
-	// 		process.env.NODE_ENV === "production"
-	// 			? "https://admash-admin.envytheme.com/"
-	// 			: "http://localhost:3000",
-	// },
 }
 
 module.exports = nextConfig
